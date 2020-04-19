@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <meta charset="utf-8">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <link href="stylesheetMobile.css" rel="stylesheet" type="text/css">
+        <link href="stylesheetTablet.css" rel="stylesheet" type="text/css">
+        <script>
+            var i=0;
+            var images=[];
+
+            images[0]="images/image1.jpg";
+            images[1]="images/image2.jpg";
+            images[2]="images/image3.jpg";
+            images[3]="images/image4.jpg";
+            images[4]="images/image5.jpg";
+            images[5]="images/image6.jpg";
+            images[6]="images/image7.jpg";
+            images[7]="images/image8.jpg";
+            images[8]="images/image9.jpeg";
+            images[9]="images/image10.jpg";
+            images[10]="images/image11.jpg";
+            images[11]="images/image12.jpg";
+
+            function nextImage()
+            {
+                document.getElementById("slide").src=images[i];
+            
+                if(i<images.length-1)
+                {
+                    i++;
+                }
+                else
+                {
+                    i=0;
+                }  
+            }
+
+            function prevImage()
+            {
+                document.getElementById("slide").src=images[i];
+            
+                if(i==0)
+                {
+                    i=images.length;
+                }
+                else
+                {
+                    i--;
+                }
+            }
+
+        </script>
+    </head>
+    <body>
+        <div class="headerDiv">
+            <img class="logo" src="images/logo.png" alt="bicycle"> 
+            <img class="coverImg" src="images/banner2.jpg" alt="panorama">
+            <div class="clubName">THURLES CYCLING CLUB</div>
+            <div class="home"><a href="index.html">HOME</a></div>
+            <div class="info"><a href="info.html">INFORMATION</a></div>
+            <div class="events"><a href="events.html">EVENTS</a></div>
+            <div class="guides"><a href="guides.html">GUIDES</a></div>
+            <div class="gallery currentPage"><a href="gallery.html">GALLERY</a></div>
+            <div class="contact"><a href="contact.html">CONTACT</a></div>    
+        </div>
+        
+        <section class="body">
+        <div id="gallery">
+            <div class="previous">
+                <a href="javascript:prevImage()"><img id class="imgButton" src="images/prevImage.png" alt="left arrow"></a>
+            </div>
+            <div class="galleryImg">
+                <img id="slide" src="images/image1.jpg" alt="cycling" id="picture">
+            </div>
+            <div class="next">
+                <a href="javascript:nextImage()"><img class="imgButton" src="images/nextImage.png" alt="right arrow"></a>                
+            </div>
+        </div>
+        </section>
+
+        <div class="footerDiv">
+            <div class="footLeft">
+                <p>Useful Links</p>
+                <ul>
+                    <li><a href="https://www.sheldonbrown.com/" target="_blank">Sheldon Brown</a></li>
+                    <li><a href="https://www.citizensinformation.ie/en/travel_and_recreation/cycling/overview_cycling.html" target="_blank">Cycling in Ireland</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCzaZ1sPWEuZN-I8_XT6AH8g" target="_blank">Park Tool Repairs</a></li>
+                    <li><a href="https://www.youtube.com/user/globalcyclingnetwork" target="_blank">Global Cycling Network</a></li>
+                    </ul>
+            </div>
+            <div class="footCentre">
+                <p>Credits</p>
+                <ul>
+                    <li><span class="creditFooter">Site Design</span>&nbsp Merri Mogridge</li>
+                    <li><span class="creditFooter">Photography</span>&nbsp Merri Mogridge</li>
+                    <li><span class="creditFooter">Background</span><a href="https://loading.io/background/m-trianglify/" target="_blank">&nbsp Trianglify by loading.io</a></li>
+                    <li><span class="creditFooter">Club Logo</span><a href="https://www.vecteezy.com/vector-art/135102-free-bicycle-silhouette-vector-icons" target="_blank">&nbsp Bicicleta Vectors by Vecteezy</a></li>
+                </ul>
+            </div>
+            <div class="footRight">
+                <p>Social Media</p>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
