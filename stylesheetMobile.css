@@ -1,5 +1,5 @@
 /* Mobile Settings */
-@media only screen and (max-device-width: 768px) {
+@media only screen and (device-width: 768px) {
     body {
         width: 100%;
         background-image: none;
