@@ -213,6 +213,10 @@ body {
     justify-content: center;
     box-shadow: 0 4px 8px 0 #112227, 0 6px 20px 0 #112227;
 }
+.infoPage a {
+    text-decoration: none;
+    color:lightblue;
+}
 
 /* EVENT PAGE CSS */
 .eventPage {
