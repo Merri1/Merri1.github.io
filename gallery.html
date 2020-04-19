@@ -24,31 +24,31 @@
             images[11]="images/image12.jpg";
 
             function nextImage()
-            {
-                document.getElementById("slide").src=images[i];
-            
-                if(i<images.length-1)
+            {            
+                if(i<11)
                 {
                     i++;
                 }
                 else
                 {
                     i=0;
-                }  
+                }
+
+                document.getElementById("slide").src=images[i];
             }
 
             function prevImage()
             {
-                document.getElementById("slide").src=images[i];
-            
                 if(i==0)
                 {
-                    i=images.length;
+                    i=11;
                 }
                 else
                 {
                     i--;
                 }
+
+                document.getElementById("slide").src=images[i];
             }
 
         </script>
