@@ -192,6 +192,9 @@ img
     text-align: center;
     width: 100%;
     }
+.text-upper {
+    text-shadow: 2px 2px 6px #000000;
+}
 #home p
     {
         font-weight: 400;
