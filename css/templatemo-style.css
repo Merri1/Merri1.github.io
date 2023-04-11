@@ -180,7 +180,7 @@ img
 .navbar-default .nav li a:focus,
 .navbar-default .nav li a.current
     {
-        color: #206e84;
+        color: #114f5a;
     }
 
 a 
@@ -474,11 +474,19 @@ a
 /* start footer */
 footer
     {
-        background: #0f0f0f;
+        background: #051115;
         font-weight: 400;
         text-align: center;
         padding: 20px;
         color: #d2d2d2;
+    }
+footer a
+    {
+        color: #278aa5;
+    }
+footer a:hover
+    {
+        color: #4ac7ea !important;
     }
 /* end footer */
 
