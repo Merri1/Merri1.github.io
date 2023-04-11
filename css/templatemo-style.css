@@ -222,14 +222,17 @@ a
 }
 #home p
     {
-        font-weight: 400;
-        font-style: italic;
+        font-weight: 600;
         line-height: 2em;
     }
 #home img
     {
         display: inline-block;
         margin-top: 30px;
+    }
+.home-banner
+    {
+        padding: 100px 0;
     }
 /* end home */
 
