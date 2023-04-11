@@ -119,7 +119,7 @@ img
     {
          width: 30px;
         height: 30px;
-        background-color: #db891d;
+        background-color: #206e84;
          margin: 0 auto;
         -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
                 animation: sk-rotatePlane 1.2s infinite ease-in-out;
@@ -162,7 +162,7 @@ img
     }
 .navbar-default .navbar-brand
     {
-        color: #db891d;
+        color: #206e84;
         font-size: 30px;
         font-weight: bold;
         height: 70px;
@@ -180,12 +180,18 @@ img
 .navbar-default .nav li a:focus,
 .navbar-default .nav li a.current
     {
-        color: #db891d;
+        color: #206e84;
     }
 
+a 
+{
+    color: #206e84;
+    text-decoration: none;
+}
+    
 .container a:hover
 {
-    color: #3fa03c;
+    color: #114f5a;
 }
 .navbar-default .navbar-toggle
     {
@@ -194,7 +200,7 @@ img
     }
 .navbar-default .navbar-toggle .icon-bar
     {
-        background: #db891d;
+        background: #206e84;
         border-color: transparent;
     }
 .navbar-default .navbar-toggle:hover,
@@ -236,7 +242,7 @@ img
     }
 #divider .fa
     {
-        color: #db891d;
+        color: #206e84;
         font-size: 60px;
     }
 #divider h3
@@ -262,7 +268,7 @@ img
     }
 #feature .fa
     {
-        background: #db891d;
+        background: #206e84;
         border-radius: 50%;
         color: #fff;
         display: inline-block;
@@ -290,7 +296,7 @@ img
     }
 #feature1 .fa
     {
-        background: #db891d;
+        background: #206e84;
         border-radius: 50%;
         color: #fff;
         display: inline-block;
@@ -307,12 +313,16 @@ img
     {
         background: #f8f8f8;
         text-align: center;
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 20px;
+        padding-bottom: 140px;
     }
-#pricing h2
+#pricing h4
     {
-        padding-bottom: 60px;
+        padding-bottom: 40px;
+    }
+#pricing .pricing-title h4
+    {
+        padding-bottom: 5px;
     }
 #pricing .pricing
     {
@@ -327,10 +337,10 @@ img
     }
 #pricing .pricing .pricing-title
     {
-        background: #db891d;
+        background: #206e84;
         color: #fff;
         font-weight: bold;
-        padding: 30px;
+        padding: 20px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
@@ -340,21 +350,21 @@ img
     }
 #pricing .pricing ul
     {
-        padding: 0;
+        padding: 16px 0;
         margin: 0;
     }
 #pricing .pricing ul li
     {
         display: block;
         list-style: none;
-        padding: 16px;
+        padding: 10px;
     }
 #pricing .pricing .btn
     {
         background: transparent;
-        border: 1px solid #db891d;
+        border: 1px solid #206e84;
         border-radius: 0px;
-        color: #db891d;
+        color: #206e84;
         font-weight: bold;
         padding-right: 40px;
         padding-left: 40px;
@@ -363,7 +373,7 @@ img
         transition: all 0.3s ease;
     }
 #pricing .pricing .btn:hover {
-    background: #db891d;
+    background: #206e84;
     color: #fff;
 }
 
@@ -371,7 +381,7 @@ img
     {
         background: #fff;
         border-radius: 50%;
-        color: #db891d;
+        color: #206e84;
         display: inline-block;
         width: 30px;
         height: 30px;
@@ -382,16 +392,21 @@ img
 /* end pricing */
 
 /* start download */
-#download
+#download, #disaster-squad
     {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding: 40px 0px;
     }
-#download h2
+#download h2, #disaster-squad h2
     {
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
-#download .btn
+#download h4, #disaster-squad h4
+    {
+        margin-top: 0px !important;
+        padding: 10px 0;
+        color: #206e84;
+    }
+#download .btn, #disaster-squad .btn
     {
         border-radius: 5px;
         font-weight: bold;
@@ -417,7 +432,7 @@ img
     }
 #contact address .fa
     {
-        background: #db891d;
+        background: #206e84;
         border-radius: 50%;
         width: 40px;
         height: 40px;
@@ -443,13 +458,13 @@ img
     }
 #contact input[type="submit"]
     {
-        background: #db891d;
+        background: #206e84;
         color: #fff;
         font-weight: bold;
         transition: all 0.3s ease;
     }
 #contact input[type="submit"]:hover {
-    background: #3fa03c;
+    background: #197282;
 }
 /* end contact */
 
