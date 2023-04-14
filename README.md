@@ -1,4 +1,2 @@
-# Disaster Squad website
+# Personal Website with links to projects
 [Website link.](https://merri1.github.io) 
-
-[Github Repository for Disaster Squad.](https://github.com/merri1/disastersquad)
